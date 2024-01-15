@@ -45,6 +45,12 @@ nav li a {
    background-image: url(../images/Circle\ design.svg);
 }
 
+.logos{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 100px;
+}
+
 
 
 
@@ -65,6 +71,7 @@ nav li a {
    }
 }
 
+/* medium devices */
 @media  and (min-width:576px) and (max-width:992px) {
   nav,
   .banner
